@@ -15,7 +15,7 @@ library(tidyverse)
 
 # epidemos
 
-hier ein absatz was ist epidemos und was kann aidR
+*epidemos* is a collection of useful tools for epidemiological analysis that is still work in progress. Up to know, the published beta version includes functions primarily focussing on the data collection/scraping process. In order to facilitate that process, *epidemos* provides APIs to different public sources of large epidemiological datasets such as the *Global Health Data Exchange (GHDx)*. 
 
 ## Installation
 
@@ -27,6 +27,7 @@ devtools::install_github("schliebs/epidemos")
 library(epidemos)
 ```
 
+# Example functions
 
 ## Download Raw Data
 
