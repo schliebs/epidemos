@@ -1,0 +1,53 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE,message=F,warning=F}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+library(tidyverse)
+```
+
+# epidemos
+
+hier ein absatz was ist epidemos und was kann aidR
+
+## Installation
+
+You can install `epidemos` from github via:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("schliebs/epidemos")
+library(epidemos)
+```
+
+
+## Download Raw Data
+
+Download ghdx US county level data from 1980 - 2014
+
+```{r,eval = F}
+library(epidemos)
+
+downloadHealthData(dataset = "ghdx",
+                   folder = "rawdata")
+
+```
+
+
+## Clean Data
+
+Unzip and clean ghdx data
+
+```{r,echo = FALSE}
+
+```
+
+
+

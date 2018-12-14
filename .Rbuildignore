@@ -1,0 +1,11 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+
+^/offline/
+offline/
+
+^/helpers/
+helpers/
+
+^/rawdata/
+rawdata/

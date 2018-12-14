@@ -1,0 +1,41 @@
+navbar:
+  title: packageTemplate
+  type: default
+  left:
+  - icon: fa-home fa-lg
+    href: index.html
+  - text: Get Started
+    href: articles/runR.html
+    menu:
+    - text: Test
+      href: articles/runR.html
+    - text: Test2
+      href: articles/vignette2.html
+  - text: Reference
+    href: reference/index.html
+  - text: News
+    href: news/index.html
+  right:
+  - icon: fa-github fa-lg
+    href: https://github.com/schliebs/aidR
+reference:
+- title: All functions
+  desc: ~
+  contents: '`testLuca`'
+- title: Other
+  desc: Other Functions
+  contents:
+  - '`testLuca`'
+  - '`downloadRawAidData`'
+  - '`prepAidData`'
+  - '`unifyCountrynames`'
+  - '`subsahara`'
+  - '`clean_china`'
+  - '`subsaharaCountries`'
+  - '`clean_aidData`'
+  - '`crs`'
+  - '`donorCountries`'
+  - '`unmatch`'
+  - '`merged5`'
+  - '`downloadHealthData`'
+
